@@ -38,6 +38,12 @@
     <div>
         <h3 id="done" class="text-center my-5"></h3>
     </div>
-   
+   <!-- dando start e reset nos botões para contagem -->
+   <div class="container">
+       <button class="btn" onclick="start()"><i class="fas fa-play fa-2x"></i></button>
+       <a href="index.html"><i class="fas fa-redo-alt fa-2x"></i></a>
+       <button class="btn" onclick="iniciarDescanso"><i class="fas fa-play fa-2x"></i></button>
+   </div>
+</div>
 </body>
 </html>
