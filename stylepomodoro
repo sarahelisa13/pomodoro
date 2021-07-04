@@ -1,0 +1,8 @@
+h1{
+    text-align: center;
+    color:#34495e;
+}
+body{
+    background-color: #9b59b6;
+    font-family:  'Roboto', sans-serif;
+}

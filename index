@@ -42,7 +42,7 @@
    <div class="container">
        <button class="btn" onclick="start()"><i class="fas fa-play fa-2x"></i></button>
        <a href="index.html"><i class="fas fa-redo-alt fa-2x"></i></a>
-       <button class="btn" onclick="iniciarDescanso"><i class="fas fa-play fa-2x"></i></button>
+       <button class="btn" onclick="iniciarDescanso()"><i class="fas fa-play fa-2x"></i></button>
    </div>
 </div>
 </body>
