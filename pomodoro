@@ -15,5 +15,17 @@ function minutostimer(){
 function segundostimer(){
     segundos = segundos - 1;
     document.getElementById("segundos").innerHTML = segundos;
+    if (segundos <= 0) {
+        if (minutos <= 0) {
+           bell1.play();
+          clearInterval(minutos_interval);
+          clearInterval(segundos_interval);
     
+          document.getElementById("done").innerHTML = "Tarefa feita! Hora do Intervalo!"
+          document.getElementById("done").classList.add('show_message');
+    
+         
+        }
+        segundos = 60;
+      }
 }
