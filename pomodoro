@@ -1,6 +1,9 @@
 var minutos = 25;
 var segundos = 0;
 
+var minutos_interval;
+var segundos_interval;
+
 var click = new Audio("click1.mp3");
 var click = new Audio("bell1.mp3");
 
@@ -29,3 +32,15 @@ function segundostimer(){
         segundos = 60;
       }
 }
+function start() {
+    click.play();
+    
+    minutos = 24;
+    segundos = 59;
+  
+    document.getElementById("minutos").innerHTML  = minutos;
+    document.getElementById("segundos").innerHTML = segundos;
+  
+    minutos_interval  = setInterval(minutostimer, 60000);
+    segundos_interval = setInterval(segundostimer, 1000);
+  }
