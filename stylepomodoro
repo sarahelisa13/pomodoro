@@ -32,3 +32,11 @@ body{
     border: 2px solid #8aa0a1 ;
     transition: 0.3s ease;
 }
+.show_message{
+    display: block;
+    padding: 1rem 0;
+    color: violet;
+    background-color: yellow;
+    border-radius: 0.5rem;
+    transition: 0.s ease;
+}
