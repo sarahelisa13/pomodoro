@@ -32,6 +32,20 @@ function segundostimer(){
         segundos = 60;
       }
 }
+function iniciarDescanso() {
+    click.play();
+  template(5, 0);
+
+  minutos = 4;
+  segundos = 59;
+
+  document.getElementById("minutos").innerHTML  = minutos;
+  document.getElementById("segundos").innerHTML = segundos;
+
+  minutos_interval  = setInterval(minutostimer, 60000);
+  segundos_interval = setInterval(segundostimer, 1000);
+}
+
 function start() {
     click.play();
     
