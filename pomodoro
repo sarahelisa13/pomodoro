@@ -12,3 +12,8 @@ function minutostimer(){
     minutos = minutos -  1;
     document.getElementById("minutos").innerHTML = minutos;
 }
+function segundostimer(){
+    segundos = segundos - 1;
+    document.getElementById("segundos").innerHTML = segundos;
+    
+}
