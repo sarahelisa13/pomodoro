@@ -8,3 +8,7 @@ function template(minutos = 25, segundos='00'){
     document.getElementById("minutos").innerHTML = minutos;
     document.getElementById("segundos").innerHTML = segundos;
 }
+function minutostimer(){
+    minutos = minutos -  1;
+    document.getElementById("minutos").innerHTML = minutos;
+}
