@@ -33,7 +33,7 @@ function segundostimer(){
       }
 }
 function iniciarDescanso() {
-    click.play();
+    click1.play();
   template(5, 0);
 
   minutos = 4;
@@ -47,7 +47,7 @@ function iniciarDescanso() {
 }
 
 function start() {
-    click.play();
+    click1.play();
     
     minutos = 24;
     segundos = 59;
