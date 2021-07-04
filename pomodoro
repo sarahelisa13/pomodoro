@@ -3,3 +3,8 @@ var segundos = 0;
 
 var click = new Audio("click1.mp3");
 var click = new Audio("bell1.mp3");
+
+function template(minutos = 25, segundos='00'){
+    document.getElementById("minutos").innerHTML = minutos;
+    document.getElementById("segundos").innerHTML = segundos;
+}
