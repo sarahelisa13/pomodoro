@@ -4,7 +4,7 @@ var segundos = 0;
 var minutos_interval;
 var segundos_interval;
 
-var click = new Audio("click1.mp3");
+var click1 = new Audio("click1.mp3");
 var bell1 = new Audio("bell1.mp3");
 
 function template(minutos = 25, segundos='00'){
