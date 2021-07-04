@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color:#34495e;
+}
+body{
+    background-color: #9b59b6;
+    font-family:  'Roboto', sans-serif;
+}
+.timer{
+    color: antiquewhite;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid antiquewhite;
+    border-radius: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    width: 100%;
+}
+.fa-play, .fa-redo-alt {
+    color: beige;
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
+.fa-play, .fa-redo-alt:hover{
+    color: tomato;
+    border: 2px solid #8aa0a1 ;
+    transition: 0.3s ease;
+}
+.show_message{
+    display: block;
+    padding: 1rem 0;
+    color: violet;
+    background-color: yellow;
+    border-radius: 0.5rem;
+    transition: 0.s ease;
+}
