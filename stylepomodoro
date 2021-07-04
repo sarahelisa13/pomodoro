@@ -6,3 +6,17 @@ body{
     background-color: #9b59b6;
     font-family:  'Roboto', sans-serif;
 }
+.timer{
+    color: antiquewhite;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid antiquewhite;
+    border-radius: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    width: 100%;
+}
