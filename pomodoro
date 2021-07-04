@@ -1,0 +1,5 @@
+var minutos = 25;
+var segundos = 0;
+
+var click = new Audio("click1.mp3");
+var click = new Audio("bell1.mp3");
